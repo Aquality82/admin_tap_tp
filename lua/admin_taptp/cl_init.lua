@@ -1,5 +1,5 @@
 if not file.Exists("admintaptp_keybind.txt", "DATA") then
-    file.Write("admintaptp_keybind.txt", ".")
+    file.Write("admintaptp_keybind.txt", "]")
 end
 
 concommand.Add("cursortp_setbind", function(ply, cmd, args)
